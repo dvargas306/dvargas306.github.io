@@ -197,12 +197,15 @@
       </div>
     </div>
   </div>
-  <div class="background">
-    <video poster="/path/to/poster.jpg" autoplay="" loop="" muted="">
-      <source src="https://www.youtube.com/embed/elGZbcpGzdU" type="video/mp4">
-      
-    </video>
+  <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+   
+    <div style="position: fixed; z-index: -99; width: 100%; height: 100%"></div>
+    <iframe frameborder="0" height="100%" width="100%" 
+      src="https://www.youtube.com/embed/elGZbcpGzdU">
+    </iframe>
   </div>
+  
+  // Replace ID with the actual ID of your YouTube video
   <!-- Page Title 
   <div class="background" style="background-image:url(assets/img/background/main.jpg)"></div> -->
 </section>
