@@ -5,8 +5,16 @@
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
-  <link rel="stylesheet" type="text/css" href="hello.css">
+  <link rel="stylesheet" type="text/css" href="css/hello.css">
   <link rel="stylesheet" type="text/css" href="css/heart.css">
+  <link rel="stylesheet" type="text/css" href="css/quest.css">
+  <link rel="stylesheet" type="text/css" href="load.css">
+
+
+ 
+ <!--Design Card-->
+  <link rel="stylesheet" type="text/css" href="col.css">
+
 	<!-- Page Title -->
 	<title>HI</title>
 
@@ -43,20 +51,6 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-
-
-<div class="banter-loader">
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-</div>
-
 
 
 
@@ -536,6 +530,71 @@
   <div class="background" style="background-image:url(assets/img/background/comp.jpg)"></div>
 </section>
 
+<!--
+<section class="slide fade-6 kenBurns">
+<div class="demo">
+  <div class="demo__content">
+    <h2 class="demo__heading">What do you need help with?</h2>
+    <div class="demo__elems">
+      <div class="demo__elem demo__elem-1">With advertising online</div>
+      <div class="demo__elem demo__elem-2">With a website</div>
+      <div class="demo__elem demo__elem-3">I need help with both</div>
+      <span class="demo__hover demo__hover-1"></span>
+      <span class="demo__hover demo__hover-2"></span>
+      <span class="demo__hover demo__hover-3"></span>
+      <div class="demo__highlighter">
+        <div class="demo__elems">
+          <div class="demo__elem">With advertising online</div>
+          <div class="demo__elem">With a website</div>
+          <div class="demo__elem">I need help with both</div>
+        </div>
+      </div>
+      <div class="demo__examples">
+        <div class="demo__examples-nb">
+          <div class="nb-inner">
+            <div class="example example-adv">
+              <div class="example-adv">
+                <div class="example-adv__top">
+                  <div class="example-adv__top-search"></div>
+                </div>
+                <div class="example-adv__mid"></div>
+                <div class="example-adv__line"></div>
+                <div class="example-adv__line long"></div>
+              </div>
+            </div>
+            <div class="example example-web">
+              <div class="example-web__top"></div>
+              <div class="example-web__left"></div>
+              <div class="example-web__right">
+                <div class="example-web__right-line"></div>s
+                <div class="example-web__right-line"></div>
+                <div class="example-web__right-line"></div>
+                <div class="example-web__right-line"></div>
+                <div class="example-web__right-line"></div>
+                <div class="example-web__right-line"></div>
+              </div>
+            </div>
+            <div class="example example-both">
+              <div class="example-both__half example-both__left">
+                <div class="example-both__left-top"></div>
+                <div class="example-both__left-mid"></div>
+              </div>
+              <div class="example-both__half example-both__right">
+                <div class="example-both__right-top"></div>
+                <div class="example-both__right-mid"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+-->
+
+
 <!-- Popup Video -->
 <div class="popup autoplay" data-popup-id="89-3">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -553,16 +612,45 @@
 </div>
 
 
+
+
+
 <!-- Panel Bottom #15 -->
 <nav class="panel bottom lastSlideOnly">
   <div class="sections">
     
-    <div class="center"><a href="#" class="opacity-8">  Made with  <div class="heart"> </div> </br>    from Indianapolis </a></div>
+    <div class="center"><a href="#" class="opacity-8">   <div class="heart"> </div> </br>    </a></div>
   </div>
 </nav>
 
 <!-- Loading Progress Bar -->
-<div class="progress-bar blue"></div>
-		
+<div class="twitchLoader">
+
+
+
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+</div>
+
+
+
+<!--
+<script>
+  $(document).ready(function() {
+  //Preloader
+  $(window).on("load", function() {
+  preloaderFadeOutTime = 500;
+  function hidePreloader() {
+  var preloader = $('.spinner-wrapper');
+  preloader.fadeOut(preloaderFadeOutTime);
+  }
+  hidePreloader();
+  });
+  });
+  </script>
+-->
 </body>
 </html>
